@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Nav and Hero section*/
+header{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.3);
+}
+.nav{
+    margin-left: 4%;
+    margin-right: 4%;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+.category a{
+    color: rgb(71, 71, 71);
+    text-decoration: none;
+    padding: 20px;
+}
+.category a:hover{
+    color: blue;
+    border-bottom: 2px solid blue;
+    
+}
+.icon i{
+    padding: 20px;
+    color: blue;
+    cursor: pointer;
+}
+.Hero_section{
+    display: flex;
+    margin: 0 15px;
+    padding: 48px 48px 0px;
+    justify-content: space-around;
+    align-items:center;
+}
+.Hero_section h1{
+    font-size: 75px;
+    color:rgb(0, 77, 150);
+    font-weight: 650;
+    
+}
+.Hero_section p{
+    color: #D03579;
+    margin: 8px 0 10px 4px;
+    font-size:xx-large;
+    font-weight: 700;
+}
+.search-box {
+    display: flex;
+    align-items: center;
+    margin: 40px 177px 0 177px;
+    border: 2px solid #0078ff;
+    border-radius: 5px;
+    overflow: hidden;  /* makes button stick to input neatly */
+}
+
+.search-box input {
+    flex: 1;
+    height: 58px;
+    padding: 0 16px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.search-box button {
+    background-color: rgb(208, 53, 121);
+    color: white;
+    border: none;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;   /* space between text and icon */
+    font-size: 14px;
+    cursor: pointer;
+    height: 58px;
+}
+
+.search-box button:hover {
+    background-color: #c2185b;
+}
+/* Nav and Hero section end*/
+
+
+/* Card_Section */
+.Card_Section{
+    display: flex;
+    margin: 100px 177px 100px 177px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.First_Card{
+    padding: 48px 48px 48px 48px;
+    margin: 16px 16px 16px 16px;
+    border: 1px 1px 1px 1px;
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 8px;
+}
+.First_Card:hover{
+    background-color: #00f;
+    color: white;
+}
+.Second_Card{
+    padding: 48px 48px 48px 48px;
+    margin: 16px 16px 16px 16px;
+    border: 1px 1px 1px 1px;
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 8px;
+}
+.Second_Card:hover{
+    background-color: blue;
+    color: white;
+}
+.Third_Card{
+    padding: 48px 48px 48px 48px;
+    margin: 16px 16px 16px 16px;
+    border: 1px 1px 1px 1px;
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 8px;
+}
+.Third_Card:hover{
+    background-color: blue;
+    color: white;
+}
+.Card_Section i{
+    font-weight: 900;
+    font-size:xx-large;
+}
+/* Card_Section end */
+
+.text h1{
+    margin: 0 0 10px 0;
+    font-weight: bold;
+    text-align: center;
+}
+.underline{
+    width: 100px; /* adjust width */
+    height: 8px;  /* thickness of the bar */
+    background: #d63384; /* pink/magenta color */
+    border-radius: 5px; /* makes edges rounded */
+    margin: auto; 
+}
+.WSP{
+    display: flex;
+    padding: 0 165px 0 165px;
+    margin-top: 50px;
+    text-align: center;
+}
+.WSP i{
+    color:#00f; 
+}
+
+.Web_Based{
+    padding:55px;
+    margin:30px;
+    border: 1px 1px 1px 1px;
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 8px;
+    text-align: center;
+    font-size: larger;
+    color: #d03579;
+
+}
+.Affordable{
+    padding:55px;
+    margin:30px;
+    border: 1px 1px 1px 1px;
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 8px;
+    text-align: center;
+    font-size: larger;
+    color: #d03579;
+}
+.Data_Security{
+    padding:55px;
+    margin:30px;
+    border: 1px 1px 1px 1px;
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 8px;
+    text-align: center;
+    font-size: larger;
+    color: #d03579;
+}
+.User_Friendly{
+    padding:55px;
+    margin:30px;
+    border: 1px 1px 1px 1px;
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 8px;
+    text-align: center;
+    font-size: larger;
+    color: #d03579;
+}
+.support{
+    padding:55px;
+    margin:30px;
+    border: 1px 1px 1px 1px;
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 8px;
+    text-align: center;
+    font-size: larger;
+    color: #d03579;
+}
+.Automations{
+    padding:55px;
+    margin:30px;
+    border: 1px 1px 1px 1px;
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 8px;
+    text-align: center;
+    font-size: larger;
+    color: #d03579;
+}
+
